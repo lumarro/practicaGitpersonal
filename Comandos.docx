@@ -1,0 +1,17 @@
+cd "directorio"
+git clone "link"
+code .
+git checkout "rama"
+git status
+git add .
+git commit -m "mensaje"
+git checkout -b "rama"
+git push
+git push --set-upstream origin "rama"
+git remote -v
+git remote rm origin
+git remote add origin "link"
+git branch -M main
+git puhs -u origin main
+git merge "rama"
+git log
